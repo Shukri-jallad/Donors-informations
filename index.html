@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+</head>
+<body>
+    <header>Donation Site</header>
+    <main>
+        <div id="formex">
+        <fieldset>
+            <p>Donor name
+                Amount
+            </p>
+
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="amount">Amount</label>
+                <select id="amount" name="amount">
+                    <option value="first">1000</option>
+                    <option value="second">500</option>
+                    <option value="third">100</option>
+                </select><br>
+                <input type="submit" id="myBtn">
+            </form>
+        </fieldset></div>
+
+        <div id="tableOne">
+
+        <table>
+            <tr>
+                <th>Donor Name</th>
+                <th>Donor Age</th>
+                <th>Amount</th>
+            </tr>
+        </table>
+        <p id="total"></p>
+
+        </div>
+    </main>
+    <script src="/javascript/app.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    background-color: whitesmoke;
+}
+
+header{
+    font-family: 'Roboto';
+    text-align: center;
+    text-decoration: white;
+    background-color: rgba(96, 96, 96,.8);
+    padding: 10px;
+    margin: 5px;
+}
+
+#formex {
+    float: left;
+    padding: 10px;
+    background-color: rgba(96, 96, 96,.8);
+}
+
+#tableOne {
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(96, 96, 96,.8);
+    float: right;
+}
+
+table, th, td {
+    border: 1px solid black;
+    
+  }
