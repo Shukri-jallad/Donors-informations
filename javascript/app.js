@@ -1,5 +1,6 @@
 
 let table = document.getElementById('tableOne');
+let total = document.getElementById('total');
 
 let activ = [];
 
@@ -9,6 +10,7 @@ function Constructor (name,amount) {
  this.ageMin = 18;
  this.ageMax = 30;
  this.result = 0;
+ this.total = 0;
 
  Constructor.allfields.push(this);
  activ.push(this);
@@ -19,6 +21,7 @@ Constructor.allfields = [];
 
 Constructor.prototype.agevalue = function(){
   this.result =  Math.random() * (this.ageMax - this.ageMin) + this.ageMin;
+  this.total += this.result;
 }
 
 Constructor.prototype.render = function(){
